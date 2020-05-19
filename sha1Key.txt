@@ -1,0 +1,118 @@
+keytool -list -v -alias Harin -keystore D:\Development\Flutter\scrawled_story_duplicate\scrawled_story_duplicate\scrawled_key.jks
+
+dependencies {
+    def multidex_version = "2.0.1"
+    implementation "androidx.multidex:multidex:$multidex_version"
+}
+
+
+D:\Development\Flutter\scrawled_story_duplicate\scrawled_story_duplicate>keytool -list -v -alias Harin -keystore D:\Development\Flutter\scrawled_story_duplicate\scrawled_story_duplicate\
+scrawled_key.jks
+Enter keystore password:
+Alias name: Harin
+Creation date: 19-May-2020
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Himanshu Rajput, OU=none, O=none, L=Dahod, ST=Gujarat, C=91
+Issuer: CN=Himanshu Rajput, OU=none, O=none, L=Dahod, ST=Gujarat, C=91
+Serial number: 2a01e39b
+Valid from: Tue May 19 08:48:41 IST 2020 until: Sat May 13 08:48:41 IST 2045
+Certificate fingerprints:
+         SHA1: 94:45:84:1E:89:CF:F8:DF:C7:F7:37:9A:EB:3F:24:11:CD:93:09:AB
+         SHA256: 3A:ED:AB:A0:C3:D2:D1:63:B4:5F:5B:FF:A4:9C:67:AC:8E:FB:4E:91:34:7C:41:20:FA:46:84:ED:F9:CA:C2:37
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: C0 A7 B3 47 9B 81 53 B2   1E 33 EF EE 5D 8C 66 B0  ...G..S..3..].f.
+0010: 66 A4 71 52                                        f.qR
+]
+]
+
+
+Warning:
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore D:\Development\Flutter
+\scrawled_story_duplicate\scrawled_story_duplicate\scrawled_key.jks -destkeystore D:\Development\Flutter\scrawled_story_duplicate\scrawled_story_duplicate\scrawled_key.jks -deststoretype
+ pkcs12".
+
+
+
+09:43:15: Executing task 'signingReport'...
+
+Executing tasks: [signingReport] in project D:\Development\Flutter\scrawled_story_duplicate\scrawled_story_duplicate\android
+
+
+> Configure project :app
+WARNING: The option 'android.enableR8' is deprecated and should not be used anymore.
+It will be removed in a future version of the Android Gradle plugin, and will no longer allow you to disable R8.
+
+> Task :app:signingReport
+Variant: debug
+Config: debug
+Store: C:\Android\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 19:FE:71:9A:DA:7C:2C:11:84:B0:37:76:1C:B7:52:0C
+SHA1: 28:EC:6D:D0:A5:48:59:70:0C:80:1C:19:08:8D:DA:AE:74:0E:10:CB
+SHA-256: 25:72:C0:D8:BE:46:91:F2:71:18:66:A1:6E:03:28:50:77:59:F3:0A:B2:EE:D5:3E:B2:7C:D1:DE:19:A8:DC:DF
+Valid until: Saturday, 30 April, 2050
+----------
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Android\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 19:FE:71:9A:DA:7C:2C:11:84:B0:37:76:1C:B7:52:0C
+SHA1: 28:EC:6D:D0:A5:48:59:70:0C:80:1C:19:08:8D:DA:AE:74:0E:10:CB
+SHA-256: 25:72:C0:D8:BE:46:91:F2:71:18:66:A1:6E:03:28:50:77:59:F3:0A:B2:EE:D5:3E:B2:7C:D1:DE:19:A8:DC:DF
+Valid until: Saturday, 30 April, 2050
+----------
+Variant: release
+Config: debug
+Store: C:\Android\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 19:FE:71:9A:DA:7C:2C:11:84:B0:37:76:1C:B7:52:0C
+SHA1: 28:EC:6D:D0:A5:48:59:70:0C:80:1C:19:08:8D:DA:AE:74:0E:10:CB
+SHA-256: 25:72:C0:D8:BE:46:91:F2:71:18:66:A1:6E:03:28:50:77:59:F3:0A:B2:EE:D5:3E:B2:7C:D1:DE:19:A8:DC:DF
+Valid until: Saturday, 30 April, 2050
+----------
+Variant: profile
+Config: debug
+Store: C:\Android\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 19:FE:71:9A:DA:7C:2C:11:84:B0:37:76:1C:B7:52:0C
+SHA1: 28:EC:6D:D0:A5:48:59:70:0C:80:1C:19:08:8D:DA:AE:74:0E:10:CB
+SHA-256: 25:72:C0:D8:BE:46:91:F2:71:18:66:A1:6E:03:28:50:77:59:F3:0A:B2:EE:D5:3E:B2:7C:D1:DE:19:A8:DC:DF
+Valid until: Saturday, 30 April, 2050
+----------
+Variant: releaseUnitTest
+Config: debug
+Store: C:\Android\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 19:FE:71:9A:DA:7C:2C:11:84:B0:37:76:1C:B7:52:0C
+SHA1: 28:EC:6D:D0:A5:48:59:70:0C:80:1C:19:08:8D:DA:AE:74:0E:10:CB
+SHA-256: 25:72:C0:D8:BE:46:91:F2:71:18:66:A1:6E:03:28:50:77:59:F3:0A:B2:EE:D5:3E:B2:7C:D1:DE:19:A8:DC:DF
+Valid until: Saturday, 30 April, 2050
+----------
+Variant: debugUnitTest
+Config: debug
+Store: C:\Android\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 19:FE:71:9A:DA:7C:2C:11:84:B0:37:76:1C:B7:52:0C
+SHA1: 28:EC:6D:D0:A5:48:59:70:0C:80:1C:19:08:8D:DA:AE:74:0E:10:CB
+SHA-256: 25:72:C0:D8:BE:46:91:F2:71:18:66:A1:6E:03:28:50:77:59:F3:0A:B2:EE:D5:3E:B2:7C:D1:DE:19:A8:DC:DF
+Valid until: Saturday, 30 April, 2050
+----------
+Variant: profileUnitTest
+Config: debug
+Store: C:\Android\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 19:FE:71:9A:DA:7C:2C:11:84:B0:37:76:1C:B7:52:0C
+SHA1: 28:EC:6D:D0:A5:48:59:70:0C:80:1C:19:08:8D:DA:AE:74:0E:10:CB
+SHA-256: 25:72:C0:D8:BE:46:91:F2:71:18:66:A1:6E:03:28:50:77:59:F3:0A:B2:EE:D5:3E:B2:7C:D1:DE:19:A8:DC:DF
+Valid until: Saturday, 30 April, 2050
+----------

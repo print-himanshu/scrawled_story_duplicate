@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "372605977954",
+    "firebase_url": "https://scrawled-story.firebaseio.com",
+    "project_id": "scrawled-story",
+    "storage_bucket": "scrawled-story.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372605977954:android:0d8da5f0ff0ef40fa2d83b",
+        "android_client_info": {
+          "package_name": "com.example.scrawledstoryduplicate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372605977954-j7jtufba9ut4skqjcn3q65iqs63obj2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.scrawledstoryduplicate",
+            "certificate_hash": "9445841e89cff8dfc7f7379aeb3f2411cd9309ab"
+          }
+        },
+        {
+          "client_id": "372605977954-9b8mm5drvi849qni8c384mogi3c4gvdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH4x8nve1ExAGpRByUcmbk10ZrfcmiJVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372605977954-9b8mm5drvi849qni8c384mogi3c4gvdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
